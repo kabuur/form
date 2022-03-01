@@ -1,0 +1,74 @@
+
+.main{
+position: relative;
+
+}
+
+#form{
+    
+    position: absolute;
+    justify-items: center;
+    max-width: 30%;
+    height: auto;
+    
+    left: 30%;
+  
+    border-radius: 30px;
+    
+  
+    
+    padding: 10px 5%;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #c0c8d1, -13px -13px 20px #cfb9b9;
+
+
+}
+
+
+form input[type="text"], input[type="password"], input[type="email"]{
+    background: none;
+    border: none;
+    height: 30px;
+    width: 200px;
+    box-shadow: inset 0 10px 10px #cbced1, inset -10px -10px 10px #ffffff;
+    
+}
+select{
+   
+
+
+   box-shadow: rgb(203, 206, 209) 13px 13px 20px, rgb(255, 255, 255) -13px -13px 20px;
+}
+form input[type="button"]{
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: rgb(203, 206, 209) 13px 13px 20px, rgb(255, 255, 255) -13px -13px 20px;
+
+}
+form input[type="button"]:hover{
+    box-shadow: inset 13px 13px 20px #cbced1 , inset -13px -13px 20px #ffffff;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+   
+    50%{
+        left: 30px;
+    }
+    40%{
+        transform: scale(1.3);
+    }
+    10%{
+        transform: rotate(45deg);
+    }
+}
+
+textarea{
+    box-shadow: inset 0 10px 10px #cbced1, inset -10px -10px 10px #ffffff;
+    background: none;
+    border: none;
+
+}
+

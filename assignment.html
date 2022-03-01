@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+    <div class="main">
+        
+        <form action="#submit" id="form">
+            <h1>MYy fedback Form</h1>
+            <ul>
+                <li>
+                    <label for="name"> Name
+                        <input type="text" id="name">
+                    </label>
+
+                </li>
+                <li>
+                    <label for="email">email
+                        <input type="email" id="email">
+                    </label>
+                    
+                </li>
+                <li>
+                    
+                    <label for="psw">password
+                        <input type="password" id="psw">
+                    </label>
+                    
+                </li>
+                <li><h3>please check all the emations that aplly to you</h3>
+                    <ul>
+                        <li><label for="angry">angry
+                            <input type="checkbox" id="angry" name="check" checked>
+                        </label></li>
+
+                        <li><label for="sad">Sad
+                            <input type="checkbox" id="sad" name="check">
+                        </label></li>
+
+                        <li><label for="hapy">Happy
+                            <input type="checkbox" id="hapy" name="check">
+                        </label></li>
+
+                        <li><label for="Amblivant">Amblivant
+                            <input type="checkbox" id="Amblivant" name="check">
+                        </label></li>
+                        
+                    </ul>
+
+                    <li><h3> How stisfied where you with our service</h3>
+                        <ul>
+                            <li><label for="very"> very satisfied 
+                                <input type="radio" id="very" name="check" checked>
+                           - </label></li>
+    
+                   <li><label for="satis">Satisfied
+                                <input type="radio" id="satis" name="check">
+                            </label></li>
+    
+                            <li><label for="care">Didn'tcare 
+                                <input type="radio" id="care" name="check">
+                            </label></li>
+    
+                            <li><label for="dis">Dissatisfied
+                                <input type="radio" id="dis" name="check">
+                            </label></li>
+
+                            <li><label for="veryD"> very Dissatisfied
+                                <input type="radio" id="veryD" name="check">
+                            </label></li>
+                            
+                        </ul>
+                    
+                    </li>
+                <li>
+                    <label for="coment"> futher comment:
+                        <textarea></textarea>
+                    </label>
+                </li><li>
+                    <label for="bio"> Bio photo
+                        <input type="text" id="bio">
+                    </label>
+                
+                    <input style="display: none;" type="file" name="button"id="file1" value="choose..">
+                    <input type="button" value="choose..." onclick="document.getElementById('file1').click()">
+                </li> 
+               <li> <label for="location">location visited
+                    <select name="" id=""> 
+                        <option value="">mogadisho</option>
+                        <option value="">kismaanyo</option>
+                        <option value="">hargeysa</option>
+                        <option value="">baydhawo</option>
+                        <option value="">baraawe</option>
+                    </select>
+                </label>
+            </li>
+            
+            <input type="button" value="submit">
+                
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
